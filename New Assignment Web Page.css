@@ -1,0 +1,454 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+}
+
+.navbar-section li {
+    color: black;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+.navbar-section li a {
+    color: black;
+}
+
+.section-logo {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    color: black;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+
+}
+
+.section-one-text-content {
+    padding: 40px;
+    margin-top: 0px;
+
+}
+
+.text-possibilities {
+    font-family: "Neometric-Regular", Helvetica;
+    font-weight: 400;
+    color: #101010;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.discover-your-dream {
+    font-family: "Neometric-Bold", Helvetica;
+    font-weight: 700;
+    color: #101010;
+    font-size: 55px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.our-website-offers {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.register-btn {
+    background-color: #101010;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 200px;
+    height: 60px;
+}
+
+.schedule-btn {
+    background-color: transparent;
+    color: #101010;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.round-layers1 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 550px;
+    left: 25px;
+    background-color: #d9d9d9;
+    border-radius: 35px;
+    border: 5px solid;
+    border-color: #f8f8f8;
+}
+
+.round-layers2 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 550px;
+    left: 50px;
+    background-color: #d9d9d9;
+    border-radius: 35px;
+    border: 5px solid;
+    border-color: #f8f8f8;
+}
+
+.round-layers3 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 550px;
+    left: 75px;
+    background-color: #d9d9d9;
+    border-radius: 35px;
+    border: 5px solid;
+    border-color: #f8f8f8;
+}
+
+.round-layers4 {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 550px;
+    left: 100px;
+    background-color: #d9d9d9;
+    border-radius: 35px;
+    border: 5px solid;
+    border-color: #f8f8f8;
+}
+
+.section-one-main-container-left {
+    background-color: white;
+}
+
+.section-one-main-container-right {
+    background-color: black;
+    background-size: cover;
+}
+
+
+
+.section-one-profile-background {
+    position: absolute;
+    width: 800px;
+    height: 650px;
+    background-color: black;
+}
+
+.line-2 {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    top: 85px;
+    left: 70px;
+    background-color: #eaff4a;
+    transform: rotate(-7deg);
+}
+
+.line-3 {
+    position: absolute;
+    width: 340px;
+    height: 40px;
+    top: 210px;
+    left: 2px;
+    background-color: #eaff4a;
+    transform: rotate(-7deg);
+}
+
+.line-4 {
+    position: absolute;
+    width: 304px;
+    height: 40px;
+    top: 145px;
+    left: 56px;
+    background-color: #eaff4a;
+    transform: rotate(19.03deg);
+}
+
+.line-5 {
+    position: absolute;
+    width: 480px;
+    height: 40px;
+    top: 310px;
+    background-color: #eaff4a;
+    transform: rotate(19.03deg);
+}
+
+.section-two-main-container {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 110%;
+
+
+}
+
+.section-two-bg-img {
+    background-image: url('https://live.staticflickr.com/65535/51271534778_b693e2eefa_h.jpg');
+    height: 500px;
+    width: 800px;
+    background-size: cover;
+}
+
+.section-two-text-content {
+    width: 850px;
+    align-self: flex-end;
+    position: absolute;
+}
+
+.section-two-white-shade {
+    position: absolute;
+    background: linear-gradient(90deg, transparent, #ffffff);
+    height: 500px;
+    width: 810px;
+}
+
+.num-style {
+    font-size: 50px;
+    color: #DDF247;
+    font-weight: 500;
+}
+
+.section-two-head {
+    font-weight: bold;
+    color: #101010;
+}
+
+.section-two-para {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.section-3 {
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.section-3-img {
+    height: 70px;
+    width: 200px;
+}
+
+.section-4-main-container {
+    background-color: #f8f8f8;
+    width: 1700px;
+    padding: 30px;
+}
+
+.section-4-text-container {
+    padding: 50px;
+}
+
+.your-dream-future-in {
+    width: 535px;
+    font-family: "Neometric-Bold", Helvetica;
+    font-weight: 700;
+    color: #101010;
+    font-size: 50px;
+}
+
+.text-wrappe {
+    width: 535px;
+    font-family: "Neometric-Bold", Helvetica;
+    font-weight: 400;
+    color: #101010;
+    font-size: 30px;
+}
+
+.section-4-carousel {
+    width: 1400px;
+    padding: 60px;
+}
+
+.section-4-carousel-cards {
+    display: flex;
+    overflow: hidden;
+}
+
+.section-4-carousel-card1 {
+    background: yellow;
+    padding: 20px;
+    width: 650px;
+    height: 280px;
+    border-radius: 20PX;
+    margin-right: 20px;
+}
+
+.indicators {
+    color: yellow;
+    font-size: 90px;
+}
+
+.section-4-carousel-card1-para1 {
+    background-color: #ffffff;
+    color: black;
+    width: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.section-4-carousel-card1-para2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+}
+
+.section-4-carousel-card2 {
+    background: #ffffff;
+    padding: 20px;
+    width: 650px;
+    height: 280px;
+    border-radius: 20px;
+    margin-right: 10px;
+    box-shadow: 4px 4px 50px 2px #0000000d;
+}
+
+.section-4-carousel-card2-para1 {
+    background-color: #ffffff;
+    color: yellow;
+    width: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section-5 {
+    background-color: #ddf247;
+    padding: 50px;
+}
+
+.section-5-para {
+    font-size: 40px;
+    font-weight: 700;
+    margin-right: auto;
+
+}
+
+.section-5-btn {
+    border-radius: 10px;
+    width: 400px;
+    height: 80px;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.section-6-main {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-6-para {
+    font-size: 40px;
+    font-weight: 700;
+
+
+}
+
+.section-6-img {
+    position: absolute;
+    width: 800px;
+    height: 650px;
+}
+
+.section-6-text-content {
+    align-items: flex-end;
+    margin-left: 60%;
+    padding: 30px;
+
+}
+
+.section-6-btn {
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-6-p {
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.section-6-p2 {
+    font-size: 15px;
+    margin-right: 60px;
+    font-weight: 500;
+}
+
+.section-7-main {
+    margin-top: 650px;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.section-7-head {
+    font-weight: bold;
+
+}
+
+.section-7-cards {}
+
+.section-7-card-1 {
+    height: 330px;
+    width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.section-7-card-1-span {
+    font-size: 30px;
+    color: yellow;
+}
+
+.section-7-card-1 p {
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.section-7-card-1 h1 {
+    font-weight: bold;
+}
+
+.ellipse-1 {
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.ellipse-2 {
+    background-color: gray;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
